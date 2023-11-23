@@ -35,9 +35,8 @@ class App extends React.Component{
     render() {
       const { isLoading, movies } = this.state;
       return (
-        <div> 
-          { isLoading 
-          ? 'Loading...'
+        <section class = "container" >        
+          { isLoading ? 'Loading...'
           : movies.map((movie) => {
               console.log(movie);
               return (
@@ -52,8 +51,9 @@ class App extends React.Component{
             );
           })}
         </div>
-      );
-      //👉'We are ready' 여기에 영화 데이터 출력!
+          )}
+        </section>
+  
     }
 }
 
