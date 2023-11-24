@@ -14,7 +14,7 @@ function Movie({ title, year, summary, poster, genres }) {
                         return <li className='movie__genre' key={index}>{genre}</li>;
                     })}
                 </ul>
-                <p className="movie__summary">{summary}</p>
+                <p className="movie__summary">{summary.slice(0, 180)}...생략...</p>
             </div>
         </div>    
     );
