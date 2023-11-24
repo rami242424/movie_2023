@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/rami242424/movie_2023.git/static/css/main.9212a7d5.css",
+    "main.js": "/rami242424/movie_2023.git/static/js/main.c9f14ac9.js",
+    "index.html": "/rami242424/movie_2023.git/index.html",
+    "main.9212a7d5.css.map": "/rami242424/movie_2023.git/static/css/main.9212a7d5.css.map",
+    "main.c9f14ac9.js.map": "/rami242424/movie_2023.git/static/js/main.c9f14ac9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9212a7d5.css",
+    "static/js/main.c9f14ac9.js"
+  ]
+}
